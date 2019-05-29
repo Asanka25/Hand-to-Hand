@@ -1,0 +1,250 @@
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-image: url('images/wb\ \(6\).jpg') ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    font-family: sans-serif;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: sans-serif;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+
+  
+.header-right {
+    float: right;
+    width: 100%;
+  }
+  
+  .header-right img{
+    float: left;
+    border-radius: 100%;
+  }
+  
+  .navBar{
+    float: right;
+  }
+
+ 
+  
+.searchContainer {
+  float: right;
+  position: fixed;
+  margin-left: 1070px;
+  margin-top: 95px;
+}
+  
+.searchContainer input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 210px;
+  border-radius: 10px 0px 0px 10px;
+  
+}
+  
+.searchContainer button {
+  float: right;
+  margin-top: 8px;
+  padding: 2px;
+  margin-right: 16px;
+  background: #ddd;
+  border: none;
+  cursor: pointer;
+  width: 35px;
+
+}
+  
+.searchContainer button:hover {
+    background: #ccc;
+  }
+
+  .searchContainer img{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+  }
+
+  .verticalMenu{
+    width: 290px; /* Set a width if you like */
+    float: left;
+    margin-top: 100px;
+    position: fixed;
+  }
+  
+  .verticalMenu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    font-family: sans-serif;
+    
+  }
+  
+  .verticalMenu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .verticalMenu a.active {
+    background-color: dodgerblue; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+  
+.container{
+    padding: 20px;
+    width: 700px;
+    border-style: groove;
+    background-color: #6AACE5;
+    margin: 0px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 1;
+    top: 100;
+    
+}
+
+.takeToDown{
+  margin-top: 90px;
+}
+.onePost{
+  width: 100%;
+  background-color: rgb(74, 80, 119);
+  margin: 0px auto;
+  color:white;
+  opacity: 1;
+
+}
+
+.onePost #userIcon{
+    border-radius: 100%;
+}
+
+.postContainer{
+  margin-left: 10px;
+}
+
+.postContainer img{
+  border-radius: 5px;
+}
+
+.postHeader{
+  width: 40%;
+  height: 40px;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top:20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.postContainer{
+  font-size: 16px;
+}
+
+
+
+.usernameClass{
+  color: brown;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.btnJobApply{
+  margin-left: 500px;
+  margin-bottom: 10px;
+  width: 130px;
+  -moz-box-shadow:inset 0px 1px 0px 0px #8a2a21;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #8a2a21;
+  box-shadow:inset 0px 1px 0px 0px #8a2a21;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
+  background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+  background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+  background:-o-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+  background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+  background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437',GradientType=0);
+  background-color:#c62d1f;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  border:1px solid #d02718;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #810e05;
+    
+}
+.btnJobApply2{
+  margin-left: 500px;
+  margin-bottom: 10px;
+  width: 130px;
+  -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+  background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+  background-color:#007dc1;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  border:1px solid #124d77;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #154682;
+}
+
